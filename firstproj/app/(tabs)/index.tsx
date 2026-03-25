@@ -3,16 +3,10 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Index() {
   return (
-    <SafeAreaView
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <SafeAreaView>
       <ScrollView>
-        <View>
-          <Text>Edit app/index.tsx to edit this screen.</Text>
+        <View className="flex items-center justify-center w-full h-screen">
+          <Text className="text-green-600">Home Page</Text>
         </View>
       </ScrollView>
     </SafeAreaView>
