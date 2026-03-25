@@ -6,7 +6,7 @@ export default function History() {
     <SafeAreaView>
       <ScrollView>
         <View className="flex items-center justify-center w-full h-screen">
-          <Text className="text-red-700">History</Text>
+          <Text className="text-4xl font-bold text-orange-400">History Page</Text>
         </View>
       </ScrollView>
     </SafeAreaView>

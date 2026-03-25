@@ -27,7 +27,7 @@ export default function TabsLayout() {
     >
       {/* Home */}
       <Tabs.Screen
-        name="index"
+        name="home"
         options={{
           title: "Home",
           tabBarIcon: ({ color, focused }) => (
@@ -47,7 +47,7 @@ export default function TabsLayout() {
           title: "History",
           tabBarIcon: ({ color, focused }) => (
             <Ionicons
-              name={focused ? "time" : "time-outline"} // ✅ fixed icon
+              name={focused ? "time" : "time-outline"} 
               size={24}
               color={color}
             />
